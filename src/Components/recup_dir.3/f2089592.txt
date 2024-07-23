@@ -1,0 +1,7 @@
+Package: shared-mime-info
+Status: install reinstreq half-installed
+Priority: optional
+Section: misc
+Architecture: amd64
+Multi-Arch: foreign
+Version: 2.0-1

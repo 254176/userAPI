@@ -1,0 +1,12 @@
+490326602d6b59cff6946ecb594a56ce mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/bin/bsondump
+294d200434ea9c592568e7a965f8379b mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/bin/mongodump
+9b897492fb2b13b19557459c6b499f8d mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/bin/mongoexport
+2f66a79ff78ed5a90b434e8e80dbc37f mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/bin/mongofiles
+700f15cab492af87392ea0199187cb64 mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/bin/mongoimport
+45c564f37e270a32df939c5284e49fb9 mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/bin/mongorestore
+027c0fe7d48eb8a2312a011b7f460937 mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/bin/mongostat
+8a40417df63d9a07ec3056d441a5aeca mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/bin/mongotop
+d2f8ca674cf480d2bd8efd4edede00f7 mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/share/doc/mongodb-database-tools/LICENSE.md
+1bcc88879bd684d9ae4afc562ddbb760 mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/share/doc/mongodb-database-tools/README.md
+486379e9fd44b1559c3775106e996a3b mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/share/doc/mongodb-database-tools/THIRD-PARTY-NOTICES
+fb36757cbbeae5179e147053e495c542 mongodb-database-tools-ubuntu2004-x86_64-100.9.5/usr/share/doc/mongodb-database-tools/mongodb-database-tools-ubuntu2004-x86_64-100.9.5.deb.cdx.json

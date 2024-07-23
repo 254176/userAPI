@@ -1,0 +1,5 @@
+Package: mongodb-org-shell
+Status: unknown ok not-installed
+Priority: optional
+Section: database
+Architecture: amd64

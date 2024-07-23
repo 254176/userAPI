@@ -1,0 +1,24 @@
+Package: mongodb-database-tools
+Status: install reinstreq half-configured
+Priority: optional
+Section: database
+Maintainer: MongoDB Connectors Team <database-tools-packaging@mongodb.com>
+Architecture: amd64
+Version: 100.9.4
+Config-Version: 100.9.4
+Replaces: mongodb-database-tools (<= 100.9.4), mongodb-org-tools (<= 4.3.2), mongodb-org-tools-unstable (<= 4.3.2), mongodb-enterprise-tools (<= 4.3.2), mongodb-enterprise-tools-unstable (<= 4.3.2)
+Provides: mongodb-database-tools
+Depends: libc6, libgssapi-krb5-2, libkrb5-3, libk5crypto3, libcomerr2, libkrb5support0, libkeyutils1
+Breaks: mongodb-org-tools (<= 4.3.2), mongodb-org-tools-unstable (<= 4.3.2), mongodb-enterprise-tools (<= 4.3.2), mongodb-enterprise-tools-unstable (<= 4.3.2)
+Conflicts: mongodb-database-tools
+Description: mongodb-database-tools package provides tools for working with the MongoDB server: 
+ *bsondump - display BSON files in a human-readable format
+ *mongoimport - Convert data from JSON, TSV or CSV and insert them into a collection
+ *mongoexport - Write an existing collection to CSV or JSON format
+ *mongodump/mongorestore - Dump MongoDB backups to disk in .BSON format, 
+    or restore them to a live database
+ *mongostat - Monitor live MongoDB servers, replica sets, or sharded clusters
+ *mongofiles - Read, write, delete, or update files in GridFS 
+    (see: http://docs.mongodb.org/manual/core/gridfs/)
+ *mongotop - Monitor read/write activity on a mongo server
+Homepage: http://www.mongodb.com

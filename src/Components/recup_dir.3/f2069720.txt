@@ -1,0 +1,21 @@
+Package: linux-image-5.10.0-30-amd64
+Source: linux-signed-amd64 (5.10.218+1)
+Version: 5.10.218-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 310356
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: firmware-linux-free, apparmor
+Suggests: linux-doc-5.10, debian-kernel-handbook, grub-pc | grub-efi-amd64 | extlinux
+Conflicts: linux-image-5.10.0-30-amd64-unsigned
+Breaks: fwupdate (<< 12-7), initramfs-tools (<< 0.120+deb8u2), wireless-regdb (<< 2019.06.03-1~), xserver-xorg-input-vmmouse (<< 1:13.0.99)
+Replaces: linux-image-5.10.0-30-amd64-unsigned
+Built-Using: linux (= 5.10.218-1)
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux 5.10 for 64-bit PCs (signed)
+ The Linux kernel 5.10 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ .
+ The kernel image and modules are signed for use with Secure Boot.

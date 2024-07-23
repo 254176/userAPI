@@ -1,0 +1,19 @@
+Package: bsdextrautils
+Status: install reinstreq unpacked
+Priority: optional
+Section: utils
+Installed-Size: 384
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Source: util-linux
+Version: 2.36.1-8+deb11u1
+Config-Version: 2.36.1-8+deb11u1
+Replaces: bsdmainutils (<< 12.1.3)
+Pre-Depends: libc6 (>= 2.14), libsmartcols1 (>= 2.31.1), libtinfo6 (>= 6)
+Breaks: bsdmainutils (<< 12.1.3)
+Description: extra utilities from 4.4BSD-Lite
+ This package contains some extra BSD utilities: col, colcrt, colrm, column,
+ hd, hexdump, look, ul and write.
+ Other BSD utilities are provided by bsdutils and calendar.
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/

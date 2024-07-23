@@ -1,0 +1,97 @@
+l Scalability
+ * Built-In Replication for High Availability
+ * Rich Secondary Indexes, including geospatial
+ * TTL indexes
+ * Text Search
+ * Aggregation Framework & Native MapReduce
+ .
+ This metapackage will install the mongo shell, import/export tools, other client utilities, server software, default configuration, and init.d scripts.
+
+Package: mongodb-mongosh-shared-openssl3
+Architecture: amd64
+Version: 2.2.0
+Priority: optional
+Section: utils
+Maintainer: Compass Team <compass@mongodb.com>
+Installed-Size: 210604
+Provides: mongodb-shell (= 2.0), mongodb-mongosh (= 2.2.0)
+Depends: libc6 (>= 2.17), libssl3
+Recommends: libgssapi-krb5-2
+Filename: dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-mongosh-shared-openssl3_2.2.0_amd64.deb
+Size: 49966596
+MD5sum: d9809778002c3b35950ea463cf24efa4
+SHA1: eca2d5418d42b1800ed574e10c68ac72ea564f5d
+SHA256: fbe17198e3b5658931bf30c47b7ecbd4d3ea8a0a2080d17e397941e3cc0cd2ed
+SHA512: 1195d3a23038929139ff3188ea7192837f1c77d7380f4201c694a9818dc93000cf568affb7ff92798ade664c8186a689e2fc2c167080b78d130c7a87957236db
+Homepage: https://github.com/mongodb-js/mongosh
+Description: MongoDB Shell CLI REPL Package
+
+Package: mongodb-mongosh-shared-openssl11
+Architecture: amd64
+Version: 2.2.0
+Priority: optional
+Section: utils
+Maintainer: Compass Team <compass@mongodb.com>
+Installed-Size: 210605
+Provides: mongodb-shell (= 2.0), mongodb-mongosh (= 2.2.0)
+Depends: libc6 (>= 2.17), libssl1.1
+Recommends: libgssapi-krb5-2
+Filename: dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-mongosh-shared-openssl11_2.2.0_amd64.deb
+Size: 49962636
+MD5sum: 136892e5a1d84a5f8811c38e7628c533
+SHA1: 9966a9921f7ca5764977ff4f9b30f5151185c7f2
+SHA256: 7de4444af7c910c1c3ef8b8b3927cc55fe452ba85447d0890b9220059f8da876
+SHA512: 9e23895369a2b82f23819a52b7fbc78fbfc4b7595542839aa8fed4b1d15224325498bc61a63d442271938f039272afb874c64179af0632247127dfd0864af0d5
+Homepage: https://github.com/mongodb-js/mongosh
+Description: MongoDB Shell CLI REPL Package
+
+Package: mongodb-mongosh
+Architecture: amd64
+Version: 2.2.0
+Priority: optional
+Section: utils
+Maintainer: Compass Team <compass@mongodb.com>
+Installed-Size: 217012
+Provides: mongodb-shell (= 2.0)
+Depends: libc6 (>= 2.17)
+Recommends: libgssapi-krb5-2
+Filename: dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-mongosh_2.2.0_amd64.deb
+Size: 52112832
+MD5sum: 5907e77b59441290c4f29a72e488876d
+SHA1: cdf429756abb425e12c6c76ed4a7e6862f7dc341
+SHA256: 21ec025f30a341f753ed6625b683426c7bf5128efbab17b7c14fda2e0575aa31
+SHA512: 8da999e8d7e461f7bfb58125997f679ed3ed8bce8b73bd587fae268908e4426395792cc427b209e84318da6924cba342751bc42fe9abbf3db074a165eba53fa9
+Homepage: https://github.com/mongodb-js/mongosh
+Description: MongoDB Shell CLI REPL Package
+
+Package: mongodb-atlas-cli
+Architecture: amd64
+Version: 1.17.0
+Priority: optional
+Maintainer: MongoDB Inc. <support@mongodb.com>
+Installed-Size: 60824
+Filename: dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-atlas-cli_1.17.0_amd64.deb
+Size: 19260144
+MD5sum: cfc17ebdb66b0bb20a7ed4776a8cca97
+SHA1: fb79bdcf60f310d308005f9e38843a0db004a2ec
+SHA256: 767b813de739a6363ee4682ddfed2138c84c4c13ddf375479ba57a63153222da
+SHA512: 504361d82525df05a641fd8e81525f4028408d506c9ad7a195413140b734767c631290eaf139ea7f6b6f98d06ea48420ef2903caf5bc6d954ed8ba26cd2df605
+Homepage: https://www.mongodb.com/
+Description: MongoDB Atlas Command Line Interface (atlascli) is a tool for managing your MongoDB Atlas account.
+
+Package: mongodb-atlas
+Architecture: amd64
+Version: 1.17.0
+Priority: optional
+Maintainer: MongoDB Inc. <support@mongodb.com>
+Installed-Size: 0
+Depends: mongodb-atlas-cli, mongodb-mongosh
+Recommends: podman
+Filename: dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-atlas_1.17.0_amd64.deb
+Size: 616
+MD5sum: 77741c3028a42d5a2c8764e1cf793403
+SHA1: bfa4d0faf4dd9afc493e8b8aeb17f544a690c641
+SHA256: a2380f8b11ed094e2a76b20541c01598a5c7fe175f5316cbd9ff4206f491222c
+SHA512: 9aa69662dfe42a9c5e49f79c4b0ada42f607cca3db42754ec08aa179f8dd74f12b92dd161fd7bb464d85db7eb4c0c8a2f125009879734cc946eb7d19ef160bf8
+Homepage: https://www.mongodb.com/
+Description: Mon

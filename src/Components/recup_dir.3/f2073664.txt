@@ -1,0 +1,14 @@
+Package: libmount1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 477
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.25), libselinux1 (>= 3.1~)
+Description: device mounting library
+ This device mounting library is used by mount and umount helpers.
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/

@@ -1,0 +1,5 @@
+Package: mongodb-mongosh
+Status: unknown ok not-installed
+Priority: optional
+Section: utils
+Architecture: amd64

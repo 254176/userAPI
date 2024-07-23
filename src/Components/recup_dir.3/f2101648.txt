@@ -1,0 +1,237 @@
+0e64066313e4644dc1074a23bc9ee809ee853305886b1bcb00fec338890f481 23028 xrdp_0.9.21.1-1~deb11u1.debian.tar.xz
+Homepage: http://www.xrdp.org/
+Package-List: 
+ xrdp deb net optional arch=any
+Directory: pool/updates/main/x/xrdp
+Priority: extra
+Section: net
+
+Package: xz-utils
+Binary: liblzma5, xz-utils, xzdec, liblzma-dev, liblzma-doc
+Version: 5.2.5-2.1~deb11u1
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Uploaders: Mohammed Adnène Trojette <adn+deb@diwi.org>
+Build-Depends: debhelper (>= 8.9.0), dpkg-dev (>= 1.16.2), autoconf (>= 2.64~), automake, libtool (>= 2.2), gettext, autopoint | gettext (<< 0.18-1), autopoint | cvs
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://repo.or.cz/w/xz/debian
+Vcs-Git: https://repo.or.cz/r/xz/debian
+Checksums-Sha256:
+ 68a2702d252ab75789130fc9d2f48b9b38fc0181990c42a947b0d923d9d1922a 2681 xz-utils_5.2.5-2.1~deb11u1.dsc
+ 3e1e518ffc912f86608a8cb35e4bd41ad1aec210df2a47aaa1f95e7f5576ef56 1148824 xz-utils_5.2.5.orig.tar.xz
+ 6efc0075a58912e640119d2b52ef7d1518b260d8720fadc73df21ab7fc727624 833 xz-utils_5.2.5.orig.tar.xz.asc
+ 07627e4c7a50ef91d64c177626507afd6107f44e27f4aacb5e41151d1399ff4f 34948 xz-utils_5.2.5-2.1~deb11u1.debian.tar.xz
+Homepage: https://tukaani.org/xz/
+Build-Conflicts: automake1.4
+Build-Depends-Indep: doxygen
+Package-List: 
+ liblzma-dev deb libdevel optional arch=any
+ liblzma-doc deb doc optional arch=all
+ liblzma5 deb libs optional arch=any
+ xz-utils deb utils standard arch=any
+ xzdec deb utils optional arch=any
+Directory: pool/updates/main/x/xz-utils
+Priority: extra
+Section: utils
+
+Package: yard
+Binary: yard, yard-doc
+Version: 0.9.24-1+deb11u1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>, Cédric Boutillier <boutil@debian.org>, Paul van Tilburg <paulvt@debian.org>
+Build-Depends: bundler, debhelper-compat (= 12), gem2deb, libjs-jquery, rake, ruby-asciidoctor, ruby-gettext (>= 2.2.1~), ruby-rack, ruby-redcarpet, ruby-redcloth, ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/ruby-team/yard
+Vcs-Git: https://salsa.debian.org/ruby-team/yard.git
+Checksums-Sha256:
+ c79483fc0153feb36b962d7755ef54eaedc74e4ac2eb531c0542f8ffa2bd2c66 2216 yard_0.9.24-1+deb11u1.dsc
+ 8564af44f471d9b2b08a72426308bb1e507de4784d3fca70cbe56f75ee983151 932380 yard_0.9.24.orig.tar.gz
+ aef9aef1ae514cae54d52bf23608e269772a903cda1ce67aabacbc53139a85a7 81572 yard_0.9.24-1+deb11u1.debian.tar.xz
+Homepage: https://yardoc.org
+Package-List: 
+ yard deb ruby optional arch=all
+ yard-doc deb doc optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/updates/main/y/yard
+Priority: extra
+Section: ruby
+
+Package: zbar
+Binary: libbarcode-zbar-perl, libzbar-dev, libzbar0, libzbargtk-dev, libzbargtk0, python3-zbar, zbar-tools, libzbarqt-dev, libzbarqt0, zbarcam-qt, zbarcam-gtk
+Version: 0.23.90-1+deb11u1
+Maintainer: Boyuan Yang <byang@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec, dh-sequence-python3, libdbus-1-dev, libgtk2.0-dev, libjpeg-dev, libmagick++-dev, libqt5x11extras5-dev, libv4l-dev [linux-any], libx11-dev, perl, pkg-config, python3-dev:any, qtbase5-dev, xmlto, libgtk-3-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/debian/zbar
+Vcs-Git: https://salsa.debian.org/debian/zbar.git
+Checksums-Sha256:
+ 1a3fe535a101195aec086a455e0aa48a8fd9731dc1e92687d2990c74ecf42585 2787 zbar_0.23.90-1+deb11u1.dsc
+ e5aabcb2926c2d4cd626935c06b7553ed9e3eec0b2e08a102ea14516b8709fe1 1019128 zbar_0.23.90.orig.tar.gz
+ e1b287effc4d0d915c144d5857caa3d7501414897976e6fbc26227fa685ca1ec 12716 zbar_0.23.90-1+deb11u1.debian.tar.xz
+Homepage: https://github.com/mchehab/zbar
+Package-List: 
+ libbarcode-zbar-perl deb perl optional arch=any
+ libzbar-dev deb libdevel optional arch=any
+ libzbar0 deb libs optional arch=any
+ libzbargtk-dev deb libdevel optional arch=any
+ libzbargtk0 deb libs optional arch=any
+ libzbarqt-dev deb libdevel optional arch=any
+ libzbarqt0 deb libs optional arch=any
+ python3-zbar deb python optional arch=any
+ zbar-tools deb graphics optional arch=any
+ zbarcam-gtk deb libs optional arch=linux-any
+ zbarcam-qt deb libs optional arch=linux-any
+Directory: pool/updates/main/z/zbar
+Priority: extra
+Section: libs
+
+Package: zlib
+Binary: zlib1g, zlib1g-dev, zlib1g-udeb, lib64z1, lib64z1-dev, lib32z1, lib32z1-dev, libn32z1, libn32z1-dev
+Version: 1:1.2.11.dfsg-2
+Maintainer: Mark Brown <broonie@debian.org>
+Build-Depends: debhelper (>= 8.1.3~), gcc-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 sparc s390x mipsn32 mipsn32el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64 mips64el mips64r6 mips64r6el x32] <!nobiarch>, dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Checksums-Sha256:
+ ce8c40737357aeaf17e9ca952a631c9bde4bcfc352c2bbe963836202b12c10a7 2397 zlib_1.2.11.dfsg-2.dsc
+ 80c481411a4fe8463aeb8270149a0e80bb9eaf7da44132b6e16f2b5af01bc899 370248 zlib_1.2.11.dfsg.orig.tar.gz
+ 8602accb97cb92bd52e0d48fa958e67ccad4382a948cca716d5dd24bd0b43bd7 19244 zlib_1.2.11.dfsg-2.debian.tar.xz
+Homepage: http://zlib.net/
+Package-List: 
+ lib32z1 deb libs optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch
+ lib32z1-dev deb libdevel optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch
+ lib64z1 deb libs optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch
+ lib64z1-dev deb libdevel optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch
+ libn32z1 deb libs optional arch=mips,mipsel profile=!nobiarch
+ libn32z1-dev deb libdevel optional arch=mips,mipsel profile=!nobiarch
+ zlib1g deb libs required arch=any
+ zlib1g-dev deb libdevel optional arch=any
+ zlib1g-udeb udeb debian-installer optional arch=any
+Extra-Source-Only: yes
+Directory: pool/updates/main/z/zlib
+Priority: extra
+Section: libs
+
+Package: zlib
+Binary: zlib1g, zlib1g-dev, zlib1g-udeb, lib64z1, lib64z1-dev, lib32z1, lib32z1-dev, libn32z1, libn32z1-dev
+Version: 1:1.2.11.dfsg-2+deb11u1
+Maintainer: Mark Brown <broonie@debian.org>
+Build-Depends: debhelper (>= 8.1.3~), gcc-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 sparc s390x mipsn32 mipsn32el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64 mips64el mips64r6 mips64r6el x32] <!nobiarch>, dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Checksums-Sha256:
+ 4be50e6655d32da16f6fa663946838a7c60d68e3421510e64ab77067d1eb6e54 2905 zlib_1.2.11.dfsg-2+deb11u1.dsc
+ 80c481411a4fe8463aeb8270149a0e80bb9eaf7da44132b6e16f2b5af01bc899 370248 zlib_1.2.11.dfsg.orig.tar.gz
+ 7380daff57172ae036210c74dabef77dbab7489ff24eb68eb1b770445eb28dc6 23356 zlib_1.2.11.dfsg-2+deb11u1.debian.tar.xz
+Homepage: http://zlib.net/
+Package-List: 
+ lib32z1 deb libs optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch
+ lib32z1-dev deb libdevel optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch
+ lib64z1 deb libs optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch
+ lib64z1-dev deb libdevel optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch
+ libn32z1 deb libs optional arch=mips,mipsel profile=!nobiarch
+ libn32z1-dev deb libdevel optional arch=mips,mipsel profile=!nobiarch
+ zlib1g deb libs required arch=any
+ zlib1g-dev deb libdevel optional arch=any
+ zlib1g-udeb udeb debian-installer optional arch=any
+Extra-Source-Only: yes
+Directory: pool/updates/main/z/zlib
+Priority: extra
+Section: libs
+
+Package: zlib
+Binary: zlib1g, zlib1g-dev, zlib1g-udeb, lib64z1, lib64z1-dev, lib32z1, lib32z1-dev, libn32z1, libn32z1-dev
+Version: 1:1.2.11.dfsg-2+deb11u2
+Maintainer: Mark Brown <broonie@debian.org>
+Build-Depends: debhelper (>= 8.1.3~), gcc-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 sparc s390x mipsn32 mipsn32el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64 mips64el mips64r6 mips64r6el x32] <!nobiarch>, dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Checksums-Sha256:
+ ec2ee2fc4dfd1f799dfa6a95133ebccbd7531886de38b0a8e3e58b66706a6dc7 2905 zlib_1.2.11.dfsg-2+deb11u2.dsc
+ 80c481411a4fe8463aeb8270149a0e80bb9eaf7da44132b6e16f2b5af01bc899 370248 zlib_1.2.11.dfsg.orig.tar.gz
+ c19794df214f0c2571b19f7dea853c066410232abe9f0ddad77231fabccde0da 23984 zlib_1.2.11.dfsg-2+deb11u2.debian.tar.xz
+Homepage: http://zlib.net/
+Package-List: 
+ lib32z1 deb libs optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch
+ lib32z1-dev deb libdevel optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch
+ lib64z1 deb libs optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch
+ lib64z1-dev deb libdevel optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch
+ libn32z1 deb libs optional arch=mips,mipsel profile=!nobiarch
+ libn32z1-dev deb libdevel optional arch=mips,mipsel profile=!nobiarch
+ zlib1g deb libs required arch=any
+ zlib1g-dev deb libdevel optional arch=any
+ zlib1g-udeb udeb debian-installer optional arch=any
+Directory: pool/updates/main/z/zlib
+Priority: extra
+Section: libs
+
+Package: zookeeper
+Binary: libzookeeper-java, zookeeper, zookeeperd, libzookeeper-java-doc, libzookeeper-mt2, libzookeeper-st2, libzookeeper-mt-dev, libzookeeper-st-dev, zookeeper-bin, python3-zookeeper
+Version: 3.4.13-6+deb11u1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: James Page <james.page@ubuntu.com>, tony mancill <tmancill@debian.org>
+Build-Depends: ant (>= 1.6.0), ant-optional, autoconf, automake, default-jdk (>= 2:1.6), default-jdk-doc, dh-python, help2man, ivy-debian-helper, javacc, javahelper (>= 0.28), junit4, libapacheds-java, libboost-dev, libcppunit-dev, libcommons-collections3-java, libcommons-io-java, libjline-java, liblog4cxx-dev, liblog4j1.2-java (>> 1.2.15-8), libmockito-java, libslf4j-java, libtool, libxerces2-java, libxml2-dev, maven-repo-helper, pkg-config, procps, python3-all-dev, debhelper-compat (= 12)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/java-team/zookeeper
+Vcs-Git: https://salsa.debian.org/java-team/zookeeper.git
+Checksums-Sha256:
+ 4c871960c79a09b9bbee6ef720deefb83a6be56414e23c5f77e18edadee04529 3041 zookeeper_3.4.13-6+deb11u1.dsc
+ 4f303a575a3e981d5ef8fe43a4fec157f320841a502eff96ae7cda902c278d2f 1970528 zookeeper_3.4.13.orig.tar.xz
+ ea9f1710fce0a0f9913d0fb814d096d8805dab70fece5b087893be2a5c11e94e 63300 zookeeper_3.4.13-6+deb11u1.debian.tar.xz
+Homepage: https://zookeeper.apache.org
+Package-List: 
+ libzookeeper-java deb java optional arch=all
+ libzookeeper-java-doc deb doc optional arch=all
+ libzookeeper-mt-dev deb libdevel optional arch=any
+ libzookeeper-mt2 deb libs optional arch=any
+ libzookeeper-st-dev deb libdevel optional arch=any
+ libzookeeper-st2 deb libs optional arch=any
+ python3-zookeeper deb python optional arch=any
+ zookeeper deb java optional arch=all
+ zookeeper-bin deb misc optional arch=any
+ zookeeperd deb java optional arch=all
+Directory: pool/updates/main/z/zookeeper
+Priority: extra
+Section: net
+
+Package: zsh
+Binary: zsh-common, zsh, zsh-doc, zsh-static, zsh-dev
+Version: 5.8-6+deb11u1
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Uploaders: Michael Prokop <mika@debian.org>, Axel Beckert <abe@debian.org>, Frank Terbeck <ft@bewatermyfriend.org>, Richard Hartmann <richih@debian.org>
+Build-Depends: bsdextrautils | bsdmainutils (<< 12~), debhelper-compat (= 13), dpkg-dev (>= 1.16.2~), groff, groff-base, libcap-dev [linux-any], libelf-dev, libgdbm-dev, libncursesw5-dev, libpcre3-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/debian/zsh
+Vcs-Git: https://salsa.debian.org/debian/zsh.git -b debian
+Checksums-Sha256:
+ c6f907c2ad737fbba7a78c8c4b39add91056cf7574a969e9d4c99e5efdfa5963 2853 zsh_5.8-6+deb11u1.dsc
+ dcc4b54cc5565670a65581760261c163d720991f0d06486da61f8d839b52de27 3193284 zsh_5.8.orig.tar.xz
+ f5653b4f4ed5c23cce19cd57503eb4cd77fd3fb4bcb56f9da318263ef4636105 488 zsh_5.8.orig.tar.xz.asc
+ 5509d325839f3be3be53afa72be2a38f493f4cfbd122837cf8357002a6791676 92800 zsh_5.8-6+deb11u1.debian.tar.xz
+Homepage: https://www.zsh.org/
+Build-Depends-Indep: cm-super-minimal, ghostscript, texinfo (>= 5~), texlive-fonts-recommended, texlive-latex-base, texlive-latex-recommended, yodl (>= 3.08.01) | yodl (<< 3.08.00)
+Package-List: 
+ zsh deb shells optional arch=any
+ zsh-common deb shells optional arch=all
+ zsh-dev deb libdevel optional arch=any
+ zsh-doc deb doc optional arch=all
+ zsh-static deb shells optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libcap-dev, libelf-dev, libgdbm-dev, libncursesw5-dev, libpcre3-dev
+Directory: pool/updates/main/z/zsh
+Priority: extra
+Section: shells
+

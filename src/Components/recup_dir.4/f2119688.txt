@@ -1,0 +1,15 @@
+Package: libc-l10n
+Status: install ok unpacked
+Priority: standard
+Section: localization
+Installed-Size: 4398
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: glibc
+Version: 2.31-13+deb11u10
+Config-Version: 2.31-13+deb11u8
+Description: GNU C Library: localization files
+ This package contains the translation files for the GNU C library and
+ utility programs.
+Homepage: https://www.gnu.org/software/libc/libc.html

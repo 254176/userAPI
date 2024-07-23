@@ -1,0 +1,75 @@
+{
+ "base64_encoded_keys": [],
+ "ds": {
+  "_doc": "EXPERIMENTAL: The structure and format of content scoped under the 'ds' key may change in subsequent releases of cloud-init.",
+  "meta_data": {
+   "backups": {
+    "enabled": false,
+    "status": null
+   },
+   "host_uuid": "541069b40867b94b7d70d971d5a3bc5ecfe18b10",
+   "id": 60113960,
+   "instance-id": 60113960,
+   "label": "debian-us-central",
+   "region": "us-central",
+   "specs": {
+    "disk": 163840,
+    "gpus": 0,
+    "memory": 8192,
+    "transfer": 5000,
+    "vcpus": 4
+   },
+   "tags": [],
+   "type": "g6-dedicated-4"
+  }
+ },
+ "merged_cfg": "redacted for non-root user",
+ "sensitive_keys": [
+  "merged_cfg"
+ ],
+ "sys_info": {
+  "dist": [
+   "debian",
+   "11",
+   "bullseye"
+  ],
+  "platform": "Linux-5.10.0-28-amd64-x86_64-with-glibc2.31",
+  "python": "3.9.2",
+  "release": "5.10.0-28-amd64",
+  "system": "Linux",
+  "uname": [
+   "Linux",
+   "localhost",
+   "5.10.0-28-amd64",
+   "#1 SMP Debian 5.10.209-2 (2024-01-31)",
+   "x86_64",
+   ""
+  ],
+  "variant": "debian"
+ },
+ "v1": {
+  "_beta_keys": [
+   "subplatform"
+  ],
+  "availability-zone": null,
+  "availability_zone": null,
+  "cloud-name": "akamai",
+  "cloud_name": "akamai",
+  "distro": "debian",
+  "distro_release": "bullseye",
+  "distro_version": "11",
+  "instance-id": "60113960",
+  "instance_id": "60113960",
+  "kernel_release": "5.10.0-28-amd64",
+  "local-hostname": "localhost",
+  "local_hostname": "localhost",
+  "machine": "x86_64",
+  "platform": "akamai",
+  "public_ssh_keys": [],
+  "python_version": "3.9.2",
+  "region": "us-central",
+  "subplatform": "unknown",
+  "system_platform": "Linux-5.10.0-28-amd64-x86_64-with-glibc2.31",
+  "variant": "debian"
+ }
+}

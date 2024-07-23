@@ -1,0 +1,4 @@
+yarn run v1.22.22
+$ node server.js
+[HPM] Proxy created: /  -> https://veomcourse.com:1200
+Server is running on port 5001

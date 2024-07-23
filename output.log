@@ -1,0 +1,9 @@
+nohup: ignoring input
+Connected to MongoDB!
+2024/07/18 17:47:58 API is running!
+2024/07/23 22:07:43 MongoDB query filter: map[userid:720449]
+2024/07/23 22:07:43 Orders found: []
+2024/07/23 22:07:53 MongoDB query filter: map[userid:720449]
+2024/07/23 22:07:53 Orders found: []
+2024/07/23 22:08:23 MongoDB query filter: map[userid:720449]
+2024/07/23 22:08:23 Orders found: []

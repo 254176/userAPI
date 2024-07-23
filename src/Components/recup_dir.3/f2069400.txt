@@ -1,0 +1,15 @@
+Package: libsmartcols1
+Status: install reinstreq unpacked
+Priority: optional
+Section: libs
+Installed-Size: 328
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Config-Version: 2.36.1-8+deb11u1
+Depends: libc6 (>= 2.25)
+Description: smart column output alignment library
+ This smart column output alignment library is used by fdisk utilities.
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/

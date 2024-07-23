@@ -1,0 +1,19 @@
+0 verbose cli /root/.nvm/versions/node/v22.3.0/bin/node /root/.nvm/versions/node/v22.3.0/bin/npm
+1 info using npm@10.8.1
+2 info using node@v22.3.0
+3 silly config load:file:/root/.nvm/versions/node/v22.3.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/parcel_blueprint/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/root/.nvm/versions/node/v22.3.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-06-26T22_30_32_356Z-
+10 verbose logfile /root/.npm/_logs/2024-06-26T22_30_32_356Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @babel/core@^7.10.4
+16 silly packumentCache full:https://npm.pkg.cf/@babel%2fcore cache-miss
+17 http fetch GET https://npm.pkg.cf/@babel%2fcore attempt 1 failed with ENOTFOUND
+18 http fetch GET https://npm.pkg.cf/@babel%2fcore attempt 2 failed with ENOTFOUND
