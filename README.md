@@ -264,6 +264,10 @@ User                   React Frontend        Node.js Server      GoLang API     
  |                           |                      |                 |<-- Acknowledge --|
  |                           |<-- Order ID ---------|                 |                  |
  |<-- Confirmation ----------|                      |                 |                  |
+
+
+
+ 
 Interaction Diagram for Viewing Order History
 
 User                   React Frontend        Node.js Server      GoLang API          MongoDB
