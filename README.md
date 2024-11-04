@@ -5,7 +5,9 @@ This document also covers the implementation details for authentication, profile
 The goal is to ensure that the setup is robust, scalable, and secure, enabling efficient handling of user data and orders, 
 with an emphasis on maintaining data consistency and integrity through replication.
 System Topology Diagram
-![System Topology Diagram](/Users/veomnemade/Downloads/architecture_diagram.png)
+![System Topology Diagram![architecture_diagram](https://github.com/user-attachments/assets/f6aea84f-c9f2-4a06-9b67-3f39c62cab03)
+]()
+
     
 
 System Topology Description
