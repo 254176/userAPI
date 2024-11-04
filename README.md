@@ -5,7 +5,7 @@ This document also covers the implementation details for authentication, profile
 The goal is to ensure that the setup is robust, scalable, and secure, enabling efficient handling of user data and orders, 
 with an emphasis on maintaining data consistency and integrity through replication.
 System Topology Diagram
-![architecture_diagram](https://github.com/user-attachments/assets/54dd821a-db98-4a62-9b8c-7d0d21c2de8e)
+![updated_architecture_diagram](https://github.com/user-attachments/assets/f83e115a-b049-455d-b39a-86920591834c)
 
 
     
