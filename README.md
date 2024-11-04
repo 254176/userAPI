@@ -5,27 +5,8 @@ This document also covers the implementation details for authentication, profile
 The goal is to ensure that the setup is robust, scalable, and secure, enabling efficient handling of user data and orders, 
 with an emphasis on maintaining data consistency and integrity through replication.
 System Topology Diagram
-
-+-------------------+       +-------------------+       +-------------------+
-|                   |       |                   |       |                   |
-| React Frontend    |       |  Node.js Server   |       | MongoDB Container |
-|                   |       | (Express + Axios) |       |    (Replica Set)  |
-|                   |       |                   |       |                   |
-| +--------------+  |       | +--------------+  |       | +--------------+  |
-| | User Browser |  +-------> |    API       |  +-------> |   mongod      |  |
-| +--------------+  |       | +--------------+  |       | +--------------+  |
-|                   |       |                   |       |                   |
-+-------------------+       +-------------------+       +-------------------+
-                           /        |        \                           / 
-                          /         |         \                         /  
-                         /          |          \                       /   
-                        /           |           \                     /    
-             +----------------+ +----------------+  +----------------+    
-             |                | |                |  |                |    
-             |     Golang     | |     Golang     |  |     Golang     |    
-             |    (AddUser)   | |  (UpdateUser)  |  |  (PlaceOrder)  |    
-             |                | |                |  |                |    
-             +----------------+ +----------------+  +----------------+    
+![System Topology Diagram](/Users/veomnemade/Downloads/architecture_diagram.png)
+    
 
 System Topology Description
 Components:
